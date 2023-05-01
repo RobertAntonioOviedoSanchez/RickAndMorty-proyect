@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #008f39;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3.5rem;
+    padding: 0.5rem ;
+}
+
+.image {
+    width: 10rem;
+    height: 3rem;
+    transition: all 0.3s;
+}
+
+.image:hover {
+    transform: scale(1.2);    
+}
+
+.lista{
+    list-style: none;
+}
+
+.li {
+    display: inline-block;
+    padding: 0 1.5rem;
+    transition: all 0.3s;
+}
+
+.li:hover {
+    transform: scale(1.1);
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.logOut {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.logOut:hover {
+    transform: scale(1.1);
+}
+
+
+

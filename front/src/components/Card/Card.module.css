@@ -1,0 +1,75 @@
+.containerCard {
+    display: inline-block;
+    position: relative;
+    background-color: #004f2d;
+    color: white;
+    text-align: center;
+    font-size: small;
+    margin: 0.5rem;
+    width: 20%;
+    height: fit-content;
+    border-radius: 2rem;
+    box-shadow: 7px 13px 37px #000;   
+}
+
+.imgCard {
+    height: 50%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.favButton {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    font-size: x-large;
+    top: 0em;
+    left: 1em;
+    transition: all 0.3s;
+}
+
+.favButton:hover {
+    transform: scale(1.2); 
+}
+
+.deleteButton {
+    background: none;
+    border: none;
+    color: rgb(5, 5, 5);
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    font-size: x-large;
+    transition: all 0.3s;
+    top: 0em;
+    right: 1em;
+    font-weight: 600;
+}
+
+.deleteButton:hover {
+    transform: scale(1.2);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.name {
+    font-size: 1.6rem;
+    color: white;
+    transition: all 0.3s;
+    padding-left: 2px;
+}
+
+.name:hover {
+    transform: scale(1.2);
+}
+
+.description {
+    font-size: 1.2rem;
+    color: rgb(192, 188, 188);
+}

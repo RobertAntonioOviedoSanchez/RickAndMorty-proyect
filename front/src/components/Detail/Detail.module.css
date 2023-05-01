@@ -1,0 +1,50 @@
+.containerDetail {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.containerImage {
+    width: 50%;
+    
+}
+
+.imageLeft {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 15px 15px 0;
+}
+
+.containerCard {
+    width: 50%;
+    margin: 8% auto;
+}
+
+.name {
+    font-size: 60px;
+}
+
+.containerInfo {
+    display: flex;
+    padding: 5% 0 0 10% ;
+}
+
+.imgDetail {
+    border-radius: 30%;
+    box-shadow: 7px 13px 37px #000;  
+    transition: all 0.3s;
+}
+
+.imgDetail:hover {
+    transform: scale(1.1);
+}
+
+.containerTexto {
+    padding: 5% 0 0 5%;
+}
+
+.texto {
+    font-size: 35px;
+    display: flex;
+}
